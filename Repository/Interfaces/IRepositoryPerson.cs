@@ -2,7 +2,7 @@
 
 namespace Repository.Interfaces
 {
-    public interface IRespositoryPerson
+    public interface IRepositoryPerson
     {
         List<Person> GetPeople();
     }

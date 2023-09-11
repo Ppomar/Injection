@@ -5,7 +5,7 @@ using Repository.Interfaces;
 
 namespace Repository.Repositories
 {
-    public class RespositoryPerson : IRespositoryPerson
+    public class RepositoryPerson : IRepositoryPerson
     {
         public List<Person> GetPeople() {
             var list = new List<Person>();

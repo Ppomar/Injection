@@ -6,9 +6,9 @@ namespace Logic.Business
 {
     public class BusinessPerson : IBusinessPerson
     {
-        private readonly IRespositoryPerson _repositoryPerson;
+        private readonly IRepositoryPerson _repositoryPerson;
 
-        public BusinessPerson(IRespositoryPerson repositoryPerson) {
+        public BusinessPerson(IRepositoryPerson repositoryPerson) {
             _repositoryPerson = repositoryPerson;
         }
 

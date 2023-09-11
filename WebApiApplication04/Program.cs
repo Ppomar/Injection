@@ -14,7 +14,7 @@ builder.Services.AddSwaggerGen();
 
 #region Repository
 
-builder.Services.AddScoped<IRespositoryPerson, RespositoryPerson>();
+builder.Services.AddScoped<IRepositoryPerson, RepositoryPerson>();
 
 #endregion
 
